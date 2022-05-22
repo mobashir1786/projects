@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    border: 1px solid brown; 
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.all1{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bold{
+    margin: 10px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.thin{
+    margin: 10px;
+    font-size: 48px;
+}
+.add{
+    margin: 10px;
+    padding: 15px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 32px;
+}
+.same{
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+.trip{
+    color: tomato;
+    font-size: 24px;
+}
+.comp{
+    color: red;
+    text-decoration: line-through;
+    font-size: 24px;
+}
+.pend{
+    font-size: 24px;
+    font-weight: 500;
+}
+@media(min-width:300px) and (max-width:900px){
+    .all{
+        width: 99.5vw;
+        height: 100%;
+    }
+    .text{
+        display: flex;
+        align-items: center;
+    }
+    .comp{
+        display: none;
+    }
+    .checkbox{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .pend{
+        display: none;
+    }
+    .all1{
+        display: flex;
+        flex-direction: column;
+    }
+    .same{
+        width: 90%;
+        height: 80px;
+    }
+}
