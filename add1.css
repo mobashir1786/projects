@@ -1,0 +1,135 @@
+.background{
+    filter: blur(5px);
+}
+.all{
+    width: 99.5vw;
+    height: 100%;
+    border: 1px solid brown;
+}
+.trip1{
+    display: flex;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 800;
+}
+.leftline{
+    width: 25vw;
+     height: 0.1px;
+     
+}
+.rightline{
+    width: 25vw;
+     height: 0.1px;
+     
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 40px;
+}
+.arrow{
+    width: 20px;
+     height: 20px;
+     padding: 15px;
+     color: white;
+     background-color: tomato;
+     border-radius: 50%;
+}
+.paris{
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    position: absolute;
+    top: 180px;
+    left: 30vw;
+}
+.tri{
+    color: tomato;
+    font-size: 32px;
+    position: relative;
+    left: 32%;
+}
+.com{
+    text-decoration: line-through;
+    color: tomato;
+    font-size: 32px;
+    position: relative;
+    left: 30%;
+}
+.inpu{
+    position: relative;
+    left: 30%;
+}
+.pen{
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    left: 30%;
+}
+.add{
+    background-color: tomato;
+     border-radius: 50%;
+     position: absolute;
+     top: 420px;
+     left: 65%;
+}
+@media(min-width:300px) and (max-width:900px){
+    .trip1{
+        font-size: 32px;
+    }
+    a{
+        font-size: 32px;
+    }
+    .arrow{
+        padding: 5px;
+        margin: 10px;
+    }
+    .paris{
+        width: 80vw;
+        height: 40vh;
+        border: 2px solid tomato;
+        border-radius: 20px;
+        position: absolute;
+        top: 150px;
+        left: 10vw;
+    }
+    .add{
+        position: absolute;
+        left: 75%;
+    }
+}
+.add_list{
+    width: 35vw;
+    height: 200px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new{
+    color: tomato;
+    font-size: 28px;
+}
+.inp{
+    width: 90%;
+    height: 30px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+.but{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 2px solid tomato;
+    background-color: tomato;
+    border-radius: 20px;
+}
